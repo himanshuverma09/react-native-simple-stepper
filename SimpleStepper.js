@@ -1,5 +1,6 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import {StyleSheet, Text, TouchableOpacity, Image, View} from 'react-native';
+import PropTypes from 'prop-types';
 
 export default class SimpleStepper extends Component {
   static propTypes = {
